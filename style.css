@@ -1,0 +1,227 @@
+
+
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header.header img {
+width: 80px;
+}
+
+header.header {
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+}
+
+body {
+margin: 0 auto;
+}
+
+/*tête de page*/
+
+section.top-page {
+background-color: #0047AB;
+background-size: cover;
+height: 80vh;
+padding: 15px;
+}
+
+/*page de bienvenue (landing page)*/
+
+.landing-page {
+  padding: 20px 50px;
+}
+
+.scroll-down {
+  color: #ffffff;
+  position: absolute;
+  bottom: 160px;
+}
+
+.big-tittle {
+  color: white;
+  font-size: 80px;
+  font-family: 900;
+  font-weight: 100;
+}
+
+/*menue de naviguation*/
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 400px;
+  margin-left: 40px;
+}
+
+nav.nav a {
+  color: #ffffff;
+}
+
+/* From Uiverse.io by jeremyssocial */ 
+.container {
+  /* Basic dimensions and centering */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Dark mode colors and gradient */
+  background: #121212; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #121212 25%,
+    #1a1a1a 25%,
+    #1a1a1a 50%,
+    #121212 50%,
+    #121212 75%,
+    #1a1a1a 75%,
+    #1a1a1a
+  );
+  background-size: 40px 40px;
+
+  /* Animation */
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+/*contact*/
+
+.contact-tittle {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 10 ;
+  position: relative;
+  color: #ffffff;
+}
+.contact-tittle::before {
+  content: "";
+  position: absolute;
+  background-color:#0047AB ;
+  width: 188px;
+  height: 7px;
+  bottom: 0;
+}
+
+.contacte {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-detail {
+  font-weight: 600;
+  width: 200px;
+  text-align: center;
+}
+
+.delivery-icon {
+  font-size: 50px;
+  color: #0047AB;
+}
+
+/*meilleurs ventes*/
+
+.milieu-page {
+  background-color: #0047AB;
+}
+
+.section-tittle {
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 10 ;
+  position: relative;
+  color: #ffffff;
+}
+.section-tittle::before {
+  content: "";
+  position: absolute;
+  background-color:#0047AB ;
+  width: 450px;
+  height: 7px;
+  bottom: 0;
+}
+
+.maker-ventes-best {
+background-color:#0047AB ;
+height: 500px;
+display: flex;
+flex-wrap: wrap;
+margin: 70px;
+}
+
+.ventes-box {
+  background-size: cover;
+  position: relative;
+  background-position: center ;
+  min-width: 350px;
+  height: 500px;
+  flex: 1;
+}
+
+.ventes1 {
+  background-image: url(images/Bot-discord-ventes.png);
+}
+
+.ventes2 {
+  background-image: url(images/website.png);
+}
+
+.ventes4 {
+  background-image: url(images/mincraft.jpg);
+}
+
+.ventes-detail {
+  background-color:#FFFFFFDF ;
+  width: 93.4%;
+  bottom: 0;
+  position: absolute;
+  padding: 5px 20px;
+}
+
+.vente-name {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 3px;
+}
+
+.vente-prix {
+  color: #0047AB;
+  font-weight: 800;
+  line-height: 3px;
+  font-size: 14px;
+}
+
+/* pied de page*/
+
+footer {
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  color: #ffffff;
+}
+
+footer a.cgv {
+  text-decoration: none;
+  color: #ffffff;
+}
+
